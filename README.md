@@ -23,5 +23,5 @@ Utilisation de :
 - Développer une pagination - prendre en compte la mise en forme avec bootstrap - gestion dynamique avec PHP 
 
 ##Attention
-Je sais que l'on ne doit pas mettre en ligne de fichier config. Mais dans ce cas précis, l'exercice est uniquement développé en local.
+Je sais que l'on ne doit pas mettre en ligne de fichier config. Mais dans ce cas précis, l'exercice est développé en local.
 Aucune donnée sensible ne transite dans ce fichier. Dans le cas d'un développement avec des données sensibles, j'utilise .gitignore.
