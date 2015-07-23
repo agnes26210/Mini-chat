@@ -4,7 +4,6 @@ include '../configuration/configurationPDO.php';
 // Réception données formulaire par method post
 $pseudo     = htmlspecialchars(strip_tags($_POST['pseudo']));  // Pseudo
 $message    = htmlspecialchars(strip_tags($_POST['message'])); // Messsage
-$date_time  = new DateTime();
 
 // Preparation requete + execution
 $requete = $bdd->prepare('INSERT INTO messages(
